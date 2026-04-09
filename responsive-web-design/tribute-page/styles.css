@@ -1,0 +1,57 @@
+p, #title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  min-width: 10px;
+  max-width: 600px;
+
+  background: linear-gradient(to bottom, white, #b6b6b6  );
+  padding: 35px 10px;
+}
+
+#image {
+  width: 100%;
+  min-width: 10px;
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 300px;
+  max-height: 350px;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+
+}
+#img-div p {
+margin-top: 15px;
+}
+
+.list {
+width: 100%;
+ margin-left: 5%; 
+text-align: left;
+}
+
+ul li {
+  margin-bottom: 15px;
+  text-align: left;
+  
+}
+
+#list-title {
+ margin-left: 3%;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 10px;
+  color: gray;
+  font-style: italic;
+}
