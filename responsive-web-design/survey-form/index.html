@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Minecraft Survey</h1>
+    <p id="description">This is a Minecraft survey to know your Minecraft experience</p>
+    <hr>
+
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name">Name: </label>
+        <input placeholder="Your Name" id="name" type="text" required>
+      </div>
+
+      <div>
+        <label id="email-label" for="email"> E-Mail: </label>
+        <input placeholder="Example@normisur.com" id="email" type="email" required>
+      </div>
+
+      <div>
+        <label id="number-label"> Age and Gender: </label> <br>
+        <input placeholder="Age" min="13" max="125" id="number" type="number" required>
+    
+        
+        <select id="dropdown">
+          <option>-</option>
+          <option>Female</option>
+          <option>Male</option>
+          <option>Other</option>
+        </select>
+      </div>
+<div class="insideHr">
+      <hr>
+<legend id="prefer"> What do you prefer?</legend>
+      <fieldset>
+        <div class="radios">
+        <label for="dogs"> 
+        <input id="dogs" type="radio" name="dogs-cats" value="2" required>Enderman</label>
+<br>
+        <label for="cats">
+        <input id="cats" type="radio" name="dogs-cats" value="1" required>Creeper</label>
+<br>
+        <label for="none">
+        <input id="none" type="radio" name="dogs-cats" value="0" required>Zombie</label>
+        </div>
+      </fieldset>
+
+      <hr>
+</div>
+      <div id="condition-separator">
+        <label class="bold">Do you agree with our terms and conditions?</label> <br><br>
+        <label for="yes">
+          <input id="yes" type="checkbox" value="yes" required> Yes, I do
+        </label>
+      </div>
+<hr class="gray-separator">
+      <div>
+        <label for="yes-promotions">
+          <input id="yes-promotions" type="checkbox" value="yes"> I want to receive promotions to my mail
+        </label>
+      </div>
+
+      <div id="bottom-separator">
+        <label>Give us any feedback about our survey!</label>
+        <textarea></textarea>
+      </div>
+
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
