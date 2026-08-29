@@ -1,0 +1,88 @@
+/* Reseteo básico y fondo de la página */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f0f4f8; /* Un gris/celeste muy suavecito */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* La tarjeta principal del clima */
+#info-display {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra tranqui */
+  text-align: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Aseguramos que el ícono no se descontrole de tamaño */
+#weather-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Textos principales destacados */
+#location {
+  font-size: 1.3rem;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#main-temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #1a1a1a;
+}
+
+#weather-main {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #007bff; /* Un toque de color */
+}
+
+/* Textos secundarios (humedad, viento, etc.) */
+#feels-like, #humidity, #wind, #wind-gust {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 6px 0;
+}
+
+/* Estilo para el selector de ciudad */
+#city-select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Estilo para el botón */
+#get-weather-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff; /* Azul clásico */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#get-weather-btn:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el mouse */
+}
