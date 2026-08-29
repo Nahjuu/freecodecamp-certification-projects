@@ -40,12 +40,12 @@ async function showWeather(city) {
   
   weatherMain.textContent = data.weather?.[0]?.main !== undefined ? data.weather[0].main : 'N/A';
   
- 
+  
   locationVar.textContent = data.name !== undefined ? data.name : 'N/A';
 
-
+  
   if (data.weather && data.weather[0]) {
-    weatherIcon.src = data.weather[0].icon; // FCC API already provides the full URL
+    weatherIcon.src = data.weather[0].icon; 
     weatherIcon.alt = data.weather[0].description;
   }
 }
