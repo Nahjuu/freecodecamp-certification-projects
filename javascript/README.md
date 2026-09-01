@@ -1,22 +1,22 @@
 # JavaScript Algorithms & Data Structures Projects
 
-This repository contains my completed certification projects for freeCodeCamp's JavaScript Algorithms and Data Structures / Front-End Libraries curriculum. Each project focuses on fundamental JavaScript programming concepts, state management, UI component handling, DOM manipulation, and asynchronous programming using modern ECMAScript specifications.
+This repository contains my completed certification projects for freeCodeCamp's JavaScript Algorithms and Data Structures curriculum. Each project demonstrates core vanilla JavaScript concepts, including DOM manipulation, RegEx parsing, asynchronous API handling, event listeners, and ES6+ data structures like Maps and Sets.
 
 ## 📂 Projects Overview
 
 | Project | Description | Key Features & Concepts |
 | :--- | :--- | :--- |
-| **Bank Account Management Program** | Interactive application for managing virtual bank accounts, transactions, and balances. | JavaScript classes, state updates, conditional logic, input validation. |
-| **Drum Machine** | Interactive audio pad app that plays sound clips when triggered via mouse clicks or keyboard strokes. | React state, event listeners (`keydown`), HTML5 audio elements, conditional styling. |
-| **Markdown to HTML Converter** | Real-time text previewer that parses raw Markdown into styled HTML markup. | String parsing, regular expressions (RegEx), state synchronization, external library integration (`marked`). |
-| **Voting System** | Application for creating polls, casting votes, and calculating real-time voting results. | Data structures (Arrays/Objects), array mutation methods (`map`, `filter`, `reduce`), state persistence. |
-| **Weather App** | Dynamic weather application fetching and displaying real-time weather information. | Asynchronous JavaScript (`async/await`, `fetch`), API integration, JSON parsing, dynamic DOM manipulation. |
+| **Bank Account Management Program** | Application for managing virtual accounts, tracking transactions, and validating balances. | JavaScript classes, state updates, conditional logic, input validation. |
+| **Drum Machine** | Interactive soundboard that plays audio clips via click events and physical keyboard presses. | `querySelectorAll`, `addEventListener` (`click`, `keydown`), HTML Audio element handling, DOM updates. |
+| **Markdown to HTML Converter** | Live text converter parsing Markdown markup into clean HTML strings and visual previews. | Regular Expressions (RegEx with `igm` flags), string manipulation (`.replace`), input listeners. |
+| **Voting System** | Poll management script to create options, record unique votes, and summarize totals. | Native `Map` and `Set` data structures, unique voter validation, 0-indexed dynamic output formatting. |
+| **Weather App** | Dynamic dashboard fetching real-time weather metrics using freeCodeCamp's proxy API. | Asynchronous JavaScript (`async/await`, `fetch`), API integration, optional chaining (`?.`), DOM dynamic updates. |
 
 ## 🛠️ Technologies Used
 
-* **JavaScript (ES6+)**: Arrow functions, destructuring, modules, classes, array methods (`map`, `filter`, `reduce`), and async/await.
-* **React / Front-End Libraries**: Stateful functional components, event handling, controlled form inputs, and lifecycle hooks.
-* **HTML5 & CSS3**: DOM structure, semantic tags, dynamic component styling, and layout management.
+* **JavaScript (ES6+)**: `async/await`, `fetch` API, ES6 `Map` & `Set`, Regular Expressions, and Array methods.
+* **DOM Manipulation**: Event listeners (`click`, `keydown`, `input`), dynamic text content updates, element creation, and audio controls.
+* **HTML5 & CSS3**: Form components, select controls, audio element bindings, and layout structure.
 
 ## 🚀 How to Run Locally
 
@@ -24,18 +24,18 @@ This repository contains my completed certification projects for freeCodeCamp's 
    ```bash
    git clone [https://github.com/Nahjuu/freecodecamp-certification-projects.git](https://github.com/Nahjuu/freecodecamp-certification-projects.git)
 
-    Navigate to the JavaScript projects directory:
+    Navigate to the JavaScript folder:
     Bash
 
 cd freecodecamp-certification-projects/javascript
 
-Open the project of your choice (e.g., weather-app):
+Navigate to any project directory (e.g., weather-app):
 Bash
 
     cd weather-app
 
-    Open index.html in your web browser or start your local live server.
+    Open the project's index.html file in your browser.
 
 📜 Certification
 
-These projects fulfill the required project builds for freeCodeCamp's JavaScript / Front-End certification curriculum.
+These projects satisfy the core requirements for freeCodeCamp's JavaScript Algorithms and Data Structures certification.
