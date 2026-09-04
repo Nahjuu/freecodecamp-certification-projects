@@ -10,7 +10,7 @@ Welcome to my central repository for my freeCodeCamp certification projects! Thi
 | :--- | :--- | :--- |
 | **Responsive Web Design** | Completed ✅ | [`/responsive-web-design`](./responsive-web-design) |
 | **Scientific Computing with Python** | Completed ✅ | [`/scientific-computing-python`](./scientific-computing-python) |
-| **JavaScript Algorithms & Data Structures** | Completed *(Uploading)* 🔄 | [`/javascript`](./javascript) |
+| **JavaScript Algorithms & Data Structures** | Completed ✅ | [`/javascript`](./javascript) |
 | **Front End Development Libraries** | In Progress 🚀 | `[Work in Progress]` |
 
 ---
