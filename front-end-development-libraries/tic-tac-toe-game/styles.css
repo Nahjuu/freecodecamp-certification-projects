@@ -1,0 +1,67 @@
+/* Center the entire game on the screen and set a pastel background */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fde4ec; /* Soft pastel pink */
+  color: #555;
+}
+
+/* Align the squares horizontally inside their rows */
+
+
+/* The game squares */
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 4px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #7c4dff; /* Soft purple text for X and O */
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s;
+}
+
+.square:hover {
+  background-color: #f3f0ff;
+}
+
+/* The status message */
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* The reset button */
+#reset {
+  margin-top: 10px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #a2d2ff; /* Pastel blue */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s;
+}
+
+#reset:active {
+  transform: scale(0.95);
+}
+board-row{
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
