@@ -6,7 +6,7 @@ This repository contains my completed certification projects for freeCodeCamp's 
 
 | Project | Description | Key Features & Concepts |
 | :--- | :--- | :--- |
-| **[Bank Account Management Program](./bank-account-manager-program)** | Application for managing virtual accounts, tracking transactions, and validating balances. | JavaScript classes, state updates, conditional logic, input validation. |
+| **[Bank Account Management Program](./bank-account-management-program)** | Application for managing virtual accounts, tracking transactions, and validating balances. | JavaScript classes, state updates, conditional logic, input validation. |
 | **[Drum Machine](./drum-machine)** | Interactive soundboard that plays audio clips via click events and physical keyboard presses. | `querySelectorAll`, `addEventListener` (`click`, `keydown`), HTML Audio element handling, DOM updates. |
 | **[Markdown to HTML Converter](./markdown-to-html-converter)** | Live text converter parsing Markdown markup into clean HTML strings and visual previews. | Regular Expressions (RegEx with `igm` flags), string manipulation (`.replace`), input listeners. |
 | **[Voting System](./voting-system)** | Poll management script to create options, record unique votes, and summarize totals. | Native `Map` and `Set` data structures, unique voter validation, 0-indexed dynamic output formatting. |
