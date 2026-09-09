@@ -5,8 +5,8 @@ This repository contains my completed projects for freeCodeCamp's Front End Deve
 
 | Project | Description | Key Features & Concepts |
 | :--- | :--- | :--- |
-| **Currency Converter** | Real-time exchange calculator allowing users to select base and target currencies. | React `useState` for input tracking, `useMemo` for optimized conversion caching, controlled form inputs (`select` and `input`). |
-| **Tic Tac Toe Game** | Classic interactive 3x3 grid game featuring turn alternation, win detection, and draw conditions. | React `useState` (managing an array of 9 squares), immutable state updates (`.slice()`), derived state logic for winner calculation, conditional UI rendering. |
+| **[Currency Converter](./currency-converter)** | Real-time exchange calculator allowing users to select base and target currencies. | React `useState` for input tracking, `useMemo` for optimized conversion caching, controlled form inputs (`select` and `input`). |
+| **[Tic Tac Toe Game](./tic-tac-toe-game)** | Classic interactive 3x3 grid game featuring turn alternation, win detection, and draw conditions. | React `useState` (managing an array of 9 squares), immutable state updates (`.slice()`), derived state logic for winner calculation, conditional UI rendering. |
 
 ## 🛠️ Technologies Used
 
@@ -21,12 +21,14 @@ This repository contains my completed projects for freeCodeCamp's Front End Deve
    git clone [https://github.com/Nahjuu/freecodecamp-certification-projects.git](https://github.com/Nahjuu/freecodecamp-certification-projects.git)
 
     Navigate to the Front End Libraries folder (as referenced in imagen.png):
-    Bash
+   
+    ```Bash
 
 cd freecodecamp-certification-projects/front-end-development-libraries
 
 Navigate to either project directory:
-Bash
+
+```Bash
 
     cd currency-converter
     # or
