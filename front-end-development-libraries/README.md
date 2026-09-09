@@ -1,3 +1,4 @@
+# Front End Development Libraries Projects
 This repository contains my completed projects for freeCodeCamp's Front End Development Libraries curriculum. Each project demonstrates core React concepts, including component architecture, state management using hooks, derived state calculations, and dynamic UI rendering.
 
 ## 📂 Projects Overview
