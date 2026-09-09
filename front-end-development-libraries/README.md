@@ -20,21 +20,20 @@ This repository contains my completed projects for freeCodeCamp's Front End Deve
    ```bash
    git clone [https://github.com/Nahjuu/freecodecamp-certification-projects.git](https://github.com/Nahjuu/freecodecamp-certification-projects.git)
 
-    Navigate to the Front End Libraries folder (as referenced in imagen.png):
+2.Navigate to the Front End Libraries folder (as referenced in imagen.png):
    
-    ```Bash
+   ```bash
+   cd freecodecamp-certification-projects/front-end-development-libraries
 
-cd freecodecamp-certification-projects/front-end-development-libraries
+3.Navigate to either project directory:
 
-Navigate to either project directory:
+   ```Bash
 
-```Bash
+   cd currency-converter
+   # or
+   cd tic-tac-toe-game
 
-    cd currency-converter
-    # or
-    cd tic-tac-toe-game
-
-    Depending on your environment setup, run your build tool (e.g., npm start) or open the compiled index.html in your browser to view the React components.
+Depending on your environment setup, run your build tool (e.g., npm start) or open the compiled index.html in your browser to view the React components.
 
 📜 Certification
 
